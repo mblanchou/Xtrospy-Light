@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xtrospy.core"
+    android:versionCode="2"
+    android:versionName="0.3" >
+        	
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+	<!-- Substrate
+	<uses-permission android:name="cydia.permission.SUBSTRATE"/>
+ 	 -->
+ 	 
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <!-- Xposed -->
+        <meta-data android:value="true" android:name="xposedmodule"/>
+        <meta-data android:value="2.0*" android:name="xposedminversion"/>
+        <meta-data android:value="Xtrospy Core" android:name="xposeddescription"/>
+    
+        <!-- Substrate 
+        <meta-data android:name="com.saurik.substrate.main"
+            android:value=".Main_Substrate"/>
+         -->
+        
+    </application>
+    
+</manifest>

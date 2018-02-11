@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="substrate-api">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/substrate-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

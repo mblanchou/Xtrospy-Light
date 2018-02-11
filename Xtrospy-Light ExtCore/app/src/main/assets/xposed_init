@@ -1,0 +1,3 @@
+com.xtrospy.core.Main_Xposed
+com.xtrospy.core.ApplicationState_Xposed
+com.xtrospy.custom_hooks.UniqueHooks_Xposed
